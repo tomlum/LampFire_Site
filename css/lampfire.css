@@ -27,6 +27,11 @@ hr {
     background-color: rgba(50,50,50,10) !important;
 }
 
+img{
+    max-width:100%;
+    height:auto;
+}
+
 .icon {
     display: inline-block;
     margin-left: auto;
