@@ -39,6 +39,29 @@ img{
     height: 30px;
 }
 
+h3 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+    text-align:left;
+    color:#aaa;
+}
+
+a {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    color:#ab7a00;
+}
+
+a:hover{
+    color:#ffd200;
+    text-decoration: none;
+}
+
+a:active{
+    color:#ffd200;
+    text-decoration: none;
+}
+
 .center{
  text-align:center;
 }
