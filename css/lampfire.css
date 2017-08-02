@@ -52,6 +52,20 @@ a {
     color:#ab7a00;
 }
 
+a:visited {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    color:#ab7a00;
+    text-decoration: none !important;
+}
+
+a:link {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    color:#ab7a00;
+    text-decoration: none !important;
+}
+
 a:hover{
     color:#ffd200;
     text-decoration: none;
