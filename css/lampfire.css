@@ -1,9 +1,24 @@
+
+@keyframes fadein{
+    0%   {opacity: 0}
+    80%  {opacity: 0}
+    100% {opacity: 1}
+}
+
+.fadeInImage {
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
 h1 { font-family: 'Artifika', arial, serif; font-size:24pt;}
 
 h2 { color: #ffffff;}
 
 .logo {
-    display: block;
+    position: absolute !important;
+    top:0px;
+    left:0px;
+    right:0px;
     margin: 0 auto;
 }
 
@@ -15,6 +30,8 @@ body {
     font-size: 20px;
     font-family: 'Artifika';
     background-color: rgb(0,0,0);
+    padding-left:30px;
+    padding-right:30px;
 }
 
 h1 {
@@ -24,8 +41,23 @@ h1 {
 hr {
     border: none;
     height: 5px;
-    background-color: rgba(50,50,50,10) !important;
+    background-color: #ab7a00;
+    width: 80%;
+    margin: 5px;
+    border-radius: 0px;
 }
+
+.left {
+    margin-top: 40px;
+    float: left;
+}
+
+.right {
+    margin-bottom: 40px;
+    background-color: #8b5a00;
+    float: right;
+}
+
 
 img{
     max-width:100%;
@@ -77,5 +109,5 @@ a:active{
 }
 
 .center{
- text-align:center;
+   text-align:center;
 }
