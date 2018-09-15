@@ -7,7 +7,7 @@
 
 .fadeInImage {
     animation-name: fadein;
-    animation-duration: 2s;
+    animation-duration: 1.7s;
 }
 
 h1 { font-family: 'Artifika', arial, serif; font-size:24pt;}
